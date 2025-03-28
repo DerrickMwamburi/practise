@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings - Kaizen Connect</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>KAIZEN CONNECT - SMART TOURISM</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Destinations</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+                <li><a href="agencies.html">Agencies</a></li>
+                <li>
+                    <button id="dark-mode-toggle">Dark Mode</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="booking-form-container">
+            <h2>Book Your Next Adventure</h2>
+            <form id="booking-form">
+                <label for="customer-name">Your Name:</label>
+                <input type="text" id="customer-name" required>
+
+                <label for="destination">Select Destination:</label>
+                <select id="destination" required>
+                    <option value="">Loading destinations...</option>
+                </select>
+
+                <label for="agency">Select Agency:</label>
+                <select id="agency" required>
+                    <option value="">Loading agencies...</option>
+                </select>
+
+                <label for="date">Travel Date:</label>
+                <input type="date" id="date" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        <section class="bookings-container">
+            <h2>Your Bookings</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Customer</th>
+                        <th>Destination</th>
+                        <th>Agency</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="bookings-table-body">
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Contact Us</h3>
+        <p>Email: support@kaizenconnect.com | Phone: +254 700 123 456</p>
+        <p>&copy; 2025 Kaizen Connect. All rights reserved.</p>
+    </footer>
+    <script src="js/navigation.js"></script>
+    <script src="js/bookings.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+

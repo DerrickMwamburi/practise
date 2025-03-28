@@ -1,0 +1,301 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Maasai Mara",
+      "location": "Kenya",
+      "image": "https://media.istockphoto.com/id/1416834065/photo/african-elephant-walking-with-tourist-car-stop-by-watching-during-sunset-at-masai-mara.jpg?s=612x612&w=0&k=20&c=OoRz5qTlXU4UTqhrXQ-c4bTO-avWBG-QE30iSOE_1Hg=",
+      "description": "Experience the world-famous Maasai Mara, home to Africa’s Big Five and the breathtaking Great Migration. Witness millions of wildebeest and zebras crossing the Mara River in an unforgettable wildlife spectacle."
+    },
+    {
+      "id": "2",
+      "name": "Victoria Falls",
+      "location": "Zambia/Zimbabwe",
+      "image": "https://t4.ftcdn.net/jpg/02/21/94/87/360_F_221948766_efKngyq424dEwe2N22QSsfPOgdyvZnq3.jpg",
+      "description": "Known as 'The Smoke That Thunders,' Victoria Falls is one of the largest and most awe-inspiring waterfalls in the world. Feel the power of nature as millions of liters of water plunge into the Zambezi River."
+    },
+    {
+      "id": "3",
+      "name": "Serengeti National Park",
+      "location": "Tanzania",
+      "image": "https://www.serengetiparktanzania.com/wp-content/uploads/2020/11/10-Facts-About-Serengeti-National-Park-750x450.jpg",
+      "description": "Explore the vast plains of the Serengeti, where thousands of animals roam freely. Witness the stunning wildlife, including lions, elephants, cheetahs, and giraffes, in their natural habitat."
+    },
+    {
+      "id": "4",
+      "name": "Table Mountain",
+      "location": "South Africa",
+      "image": "https://media.istockphoto.com/id/482989593/photo/table-mountain-cape-town-south-africa.jpg?s=612x612&w=0&k=20&c=090XpRVKromyj36DZlubvHzEH839BPGP08ipuQWyMDs=",
+      "description": "A must-visit landmark in Cape Town, Table Mountain offers panoramic views of the city and ocean. Whether hiking to the top or taking the cableway, the experience is unforgettable."
+    },
+    {
+      "id": "5",
+      "name": "Pyramids of Giza",
+      "location": "Egypt",
+      "image": "https://images.pexels.com/photos/71241/pexels-photo-71241.jpeg?cs=srgb&dl=pexels-davidmceachan-71241.jpg&fm=jpg",
+      "description": "Step back in time and explore the legendary Pyramids of Giza. These ancient wonders of the world have stood for over 4,500 years, offering a glimpse into Egypt’s fascinating history and culture."
+    },
+    {
+      "id": "6",
+      "name": "Bwindi Impenetrable Forest",
+      "location": "Uganda",
+      "image": "https://www.kahuzibieganationalparkcongo.org/wp-content/uploads/2021/03/Bwindi-Impenetrable-National-Park-750x450.jpg",
+      "description": "Home to the endangered mountain gorillas, Bwindi Impenetrable Forest is a haven for wildlife enthusiasts. Trek through the dense forest to encounter these majestic creatures in their natural habitat."
+    },
+    {
+      "id": "7",
+      "name": "Kruger National Park",
+      "location": "South Africa",
+      "image": "https://i.ytimg.com/vi/EUQ3QhLzTyk/maxresdefault.jpg",
+      "description": "Embark on a safari adventure in Kruger National Park, one of Africa’s largest game reserves. Spot the Big Five and other wildlife species as you explore the diverse landscapes of this iconic park."
+    },
+    {
+      "id": "8",
+      "name": "Okavango Delta",
+      "location": "Botswana",
+      "image": "https://cdn.pixabay.com/photo/2020/05/11/13/48/okavango-delta-5158380_1280.jpg",
+      "description": "Discover the unique ecosystem of the Okavango Delta, a UNESCO World Heritage Site. Experience mokoro rides, game drives, and walking safaris in this pristine wilderness teeming with wildlife."
+    },
+    {
+      "id": "9",
+      "name": "Zuma Rock",
+      "location": "Nigeria",
+      "image": "https://i0.wp.com/geologyscience.com/wp-content/uploads/2023/08/Zuma-Rock-Nigeria-jpg.webp?resize=814%2C434&ssl=1",
+      "description": "Zuma Rock, known as the 'Gateway to Abuja,' is a massive monolith rising 725 meters above the plains. It holds cultural significance and is a must-visit landmark in Nigeria."
+    },
+    {
+      "id": "10",
+      "name": "Cape Coast Castle",
+      "location": "Ghana",
+      "image": "https://www.churchtimes.co.uk/media/5689920/istock-492196891-20230223102054957_web.jpg?anchor=center&mode=crop&width=818&height=500&rnd=133216223120000000",
+      "description": "A historic fortress along Ghana's coast, Cape Coast Castle was a key site during the transatlantic slave trade. Explore its dark dungeons and breathtaking ocean views."
+    },
+    {
+      "id": "11",
+      "name": "Dakar Pink Lake (Lac Rose)",
+      "location": "Senegal",
+      "image": "https://news.cgtn.com/news/326b444e796b7a6333566d54/img/0edd0fa7-0e53-4b29-955f-8561ee249987.jpg",
+      "description": "Lac Rose is a stunning pink-hued lake near Dakar, known for its high salt content and surreal beauty. Visitors can float effortlessly in its waters, similar to the Dead Sea."
+    },
+    {
+      "id": "12",
+      "name": "Grand-Bassam Beach",
+      "location": "Ivory Coast",
+      "image": "https://media.istockphoto.com/id/1326153444/photo/grand-bassam-beach-coconut-trees-by-the-gulf-of-guinea-ivory-coast.jpg?s=612x612&w=0&k=20&c=14qz2XfCqBP44Fi1ZwEdq184se6eE0mQ5qtXOEJffkQ=",
+      "description": "A UNESCO-listed historic town with colonial charm and stunning beaches. Relax on the golden sands or explore its vibrant local markets."
+    },
+    {
+      "id": "13",
+      "name": "Bijagós Archipelago",
+      "location": "Guinea-Bissau",
+      "image": "https://media.istockphoto.com/id/1013581502/photo/aerial-view-of-the-bissagos-archipelago-guinea-bissau-unesco-biosphere-reserve.jpg?s=612x612&w=0&k=20&c=UMbujMAh7KmrMI9w1_oDcmaFdhieBiNspfNim0mZkAk=",
+      "description": "A hidden paradise of over 80 islands, rich in biodiversity and home to rare species like saltwater hippos. A true escape into untouched nature."
+    },
+    {
+      "id": "14",
+      "name": "Matmata Cave Dwellings",
+      "location": "Tunisia",
+      "image": "https://i0.wp.com/www.thehungrytravellers.blog/wp-content/uploads/2022/05/B95209EB-F46A-48F3-BBA1-18E25D50ABEA.jpeg?resize=960%2C641&ssl=1",
+      "description": "Visit the famous underground homes of Matmata, known for their appearance in Star Wars. Experience unique Berber culture in these ancient dwellings."
+    },
+    {
+      "id": "15",
+      "name": "The Blue City of Chefchaouen",
+      "location": "Morocco",
+      "image": "https://www.pandotrip.com/wp-content/uploads/2013/06/garcia.jpg",
+      "description": "Wander through the enchanting blue-painted streets of Chefchaouen, a city nestled in the Rif Mountains of Morocco."
+    },
+    {
+      "id": "16",
+      "name": "Roman Ruins of Leptis Magna",
+      "location": "Libya",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/11/b9/9e/leptis-magna.jpg?w=1200&h=1200&s=1",
+      "description": "Explore the remarkably preserved ruins of Leptis Magna, a once-thriving Roman city along the Mediterranean coast of Libya."
+    },
+    {
+      "id": "17",
+      "name": "Virunga National Park",
+      "location": "Democratic Republic of Congo",
+      "image": "https://diplomatie.belgium.be/sites/default/files/styles/fluid_image/public/2022-05/Luchtaanzicht_top.jpg?itok=6hujxBzy",
+      "description": "Home to the endangered mountain gorillas, Virunga National Park is one of Africa’s oldest and most biodiverse parks, offering breathtaking volcanic landscapes and incredible wildlife experiences."
+    },
+    {
+      "id": "18",
+      "name": "Dzanga-Sangha Reserve",
+      "location": "Central African Republic",
+      "image": "https://dzanga-sangha.org/wp-content/uploads/2019/07/visit-DS-elephants.jpg",
+      "description": "Explore the lush rainforests of Dzanga-Sangha, known for its large populations of forest elephants, lowland gorillas, and unique Ba’aka pygmy culture."
+    },
+    {
+      "id": "19",
+      "name": "Loango National Park",
+      "location": "Gabon",
+      "image": "https://journeysbydesign.com/wp-content/uploads/2022/08/Kyle-de-Nobrega-Gabon-Loango-52-of-81.jpg",
+      "description": "Loango National Park offers a rare blend of savannah, rainforest, and coastline, where you can witness elephants and hippos roaming on pristine beaches."
+    },
+    {
+      "id": "20",
+      "name": "São Tomé and Príncipe Islands",
+      "location": "São Tomé and Príncipe",
+      "image": "https://waybird.imgix.net/countries/kodak_images/000/000/021/original/praia-sundy-principe-island-timbuktu-travel.JPG?w=1420&h=946&crop=center%20center&fit=min&dpr=1&q=50&auto=format",
+      "description": "A paradise of volcanic islands with lush rainforests, São Tomé and Príncipe is perfect for ecotourism, birdwatching, and breathtaking ocean views."
+    },
+    {
+      "id": "21",
+      "name": "Kahuzi-Biega National Park",
+      "location": "Democratic Republic of Congo",
+      "image": "https://www.safaris-uganda.com/wp-content/uploads/2024/05/shutterstock_722601193-1-800x400-1.jpg",
+      "description": "One of the last refuges of the eastern lowland gorillas, Kahuzi-Biega National Park offers unforgettable encounters with these gentle giants in their natural habitat."
+    }
+  ],
+  "agencies": [
+    {
+      "id": "1",
+      "name": "Safari Experts,Kenya",
+      "location": "Nairobi, Kenya",
+      "contact": "+254 700 123456",
+      "email": "info@safariexperts.com"
+    },
+    {
+      "id": "2",
+      "name": "African Treks, South Africa",
+      "location": "Cape Town, South Africa",
+      "contact": "+27 82 123 4567",
+      "email": "contact@africantreks.co.za"
+    },
+    {
+      "id": "3",
+      "name": "Sahara Adventures, Egypt",
+      "location": "Cairo, Egypt",
+      "contact": "+20 2 987654",
+      "email": "tours@saharaadventures.com"
+    },
+    {
+      "id": "4",
+      "name": "Wildlife Tours, Tanzania",
+      "location": "Arusha, Tanzania",
+      "contact": "+255 765 432 109",
+      "email": "info@wildlifetours.com"
+    },
+    {
+      "id": "5",
+      "name": "Zambezi Safaris, Zambia",
+      "location": "Livingstone, Zambia",
+      "contact": "+260 96 321 0000",
+      "email": "bookings@zambezisafaris.com"
+    },
+    {
+      "id": "6",
+      "name": "Uganda Safaris, Uganda",
+      "location": "Kampala, Uganda",
+      "contact": "+256 781837213",
+      "email": "utb@utb.go.ug"
+    },
+    {
+      "id": "7",
+      "name": "Botswana Adventures, Botswana",
+      "location": "Maun, Botswana",
+      "contact": "+267 686 4321",
+      "email": " info@botswanatourism.co.bw"
+    },
+    {
+      "id": "8",
+      "name": "Zimbabwe Tours, Zimbabwe",
+      "location": "Harare, Zimbabwe",
+      "contact": "+263 242 123 456",
+      "email": " info@ztazim.co.zw"
+    },
+    {
+      "id": "9",
+      "name": "Naija Tours, Nigeria",
+      "location": "Lagos, Nigeria",
+      "contact": "+234 802 345 6789",
+      "email": "info@naijatours.ng"
+    },
+    {
+      "id": "10",
+      "name": "Gold Coast Adventures, Ghana",
+      "location": "Accra, Ghana",
+      "contact": "+233 55 789 0123",
+      "email": "bookings@goldcoastadventures.com"
+    },
+    {
+      "id": "11",
+      "name": "Senegal Wild Tours, Senegal",
+      "location": "Dakar, Senegal",
+      "contact": "+221 77 123 4567",
+      "email": "contact@senegalwildtours.com"
+    },
+    {
+      "id": "12",
+      "name": "Ivory Getaways, Ivory Coast",
+      "location": "Abidjan, Ivory Coast",
+      "contact": "+225 07 654 3210",
+      "email": "support@ivorygetaways.ci"
+    },
+    {
+      "id": "13",
+      "name": "Bissau Eco Travels, Guinea-Bissau",
+      "location": "Bissau, Guinea-Bissau",
+      "contact": "+245 95 432 1098",
+      "email": "info@bissauecotravel.com"
+    },
+    {
+      "id": "14",
+      "name": "Tunisia Explorer, Tunisia",
+      "location": "Tunis, Tunisia",
+      "contact": "+216 55 789 101",
+      "email": "contact@tunisiaexplorer.tn"
+    },
+    {
+      "id": "15",
+      "name": "Moroccan Treks, Morocco",
+      "location": "Chefchaouen, Morocco",
+      "contact": "+212 678 456789",
+      "email": "info@moroccantreks.com"
+    },
+    {
+      "id": "16",
+      "name": "Libya Heritage Tours, Libya",
+      "location": "Tripoli, Libya",
+      "contact": "+218 91 456 7890",
+      "email": "bookings@libyaheritagetours.com"
+    },
+    {
+      "id": "17",
+      "name": "Gorilla Expeditions, DRC",
+      "location": "Goma, DRC",
+      "contact": "+243 812 345678",
+      "email": "info@gorillaexpeditions.com"
+    },
+    {
+      "id": "18",
+      "name": "Rainforest Safaris, CAR",
+      "location": "Bangui, CAR",
+      "contact": "+236 700 987654",
+      "email": "contact@rainforestsafaris.com"
+    },
+    {
+      "id": "19",
+      "name": "Loango Adventures, Gabon",
+      "location": "Libreville, Gabon",
+      "contact": "+241 60 123456",
+      "email": "bookings@loangoadventures.com"
+    },
+    {
+      "id": "20",
+      "name": "Island Getaways, São Tomé",
+      "location": "São Tomé, São Tomé and Príncipe",
+      "contact": "+239 900 5678",
+      "email": "travel@islandgetaways.com"
+    },
+    {
+      "id": "21",
+      "name": "Congo Wild Tours, DRC",
+      "location": "Bukavu, DRC",
+      "contact": "+243 815 765432",
+      "email": "support@congowildtours.com"
+    }
+  ],
+  "bookings": []
+}

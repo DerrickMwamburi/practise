@@ -1,0 +1,28 @@
+{
+  "name": "phase-1-project",
+  "version": "1.0.0",
+  "description": "A project to demonstrate the Kaizen Connect Smart Tourism Management System",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerrickMwamburi/Phase-1-Project.git"
+  },
+  "keywords": [],
+  "author": "Derrick Mwamburi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerrickMwamburi/Phase-1-Project/issues"
+  },
+  "homepage": "https://github.com/DerrickMwamburi/Phase-1-Project#readme",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "yarn": "^1.22.22"
+  }
+}
