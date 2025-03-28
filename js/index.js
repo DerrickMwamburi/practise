@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function fetchDestinations() {
-    fetch("http://localhost:3000/destinations")
+    fetch("http://localhost:5000/destinations")
         .then(response => response.json())
         .then(data => {
             const destinationsWithFullImagePaths = data.map(destination => {
@@ -24,7 +24,7 @@ function getFullImagePath(imagePath) {
     if (imagePath.startsWith('http')) {
         return imagePath;
     }
-    return `http://localhost:3000/images/${imagePath}`;
+    return `http://localhost:5000/images/${imagePath}`;
 }
 
 
@@ -84,6 +84,22 @@ function addSearchFunctionality(destinations) {
     });
 }
 
+const express = require('express');
+const cors = require('cors'); // Install via: npm install cors
+const app = express();
 
+// Allow requests from frontend (port 5001)
+app.use(cors({
+  origin: 'http://localhost:5001', // Frontend URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true // Enable if using cookies/auth
+}));
+
+// Example route
+app.get('/api/data', (req, res) => {
+  res.json({ message: "Hello from backend!" });
+});
+
+app.listen(5000, () => console.log('Backend running on port 5000'));
 
 
