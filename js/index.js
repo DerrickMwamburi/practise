@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function fetchDestinations() {
-    fetch("http://localhost:5000/destinations")
+    fetch("https://practise-swzr.onrender.com/destinations")
         .then(response => response.json())
         .then(data => {
             const destinationsWithFullImagePaths = data.map(destination => {
@@ -24,7 +24,7 @@ function getFullImagePath(imagePath) {
     if (imagePath.startsWith('http')) {
         return imagePath;
     }
-    return `http://localhost:5000/images/${imagePath}`;
+    return `https://practise-swzr.onrender.com/images/${imagePath}`;
 }
 
 

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const agencyList = document.getElementById("agency-list");
 
-    fetch("http://localhost:5000/agencies")
+    fetch("https://practise-swzr.onrender.com/agencies")
         .then((response) => response.json())
         .then((agencies) => {
             agencies.forEach((agency) => {
