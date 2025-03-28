@@ -100,6 +100,6 @@ app.get('/api/data', (req, res) => {
   res.json({ message: "Hello from backend!" });
 });
 
-app.listen(5000, () => console.log('Backend running on port 5000'));
+app.listen(4000, () => console.log('Backend running on port 4000'));
 
 

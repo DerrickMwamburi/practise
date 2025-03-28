@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const agencyList = document.getElementById("agency-list");
 
-    fetch("http://localhost:5000/agencies")
+    fetch("http://localhost:4000/agencies")
         .then((response) => response.json())
         .then((agencies) => {
             agencies.forEach((agency) => {

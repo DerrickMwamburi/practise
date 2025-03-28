@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const agencySelect = document.getElementById("agency");
 
     // Fetch Destinations and Populate Dropdown
-    fetch("http://localhost:5000/destinations")
+    fetch("http://localhost:4000/destinations")
         .then(response => response.json())
         .then(destinations => {
             destinations.forEach(destination => {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
     // Fetch Agencies and Populate Dropdown
-    fetch("http://localhost:5000/agencies")
+    fetch("http://localhost:4000/agencies")
         .then(response => response.json())
         .then(agencies => {
             agencies.forEach(agency => {
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Fetch and Display Existing Bookings
     function loadBookings() {
-        fetch("http://localhost:5000/bookings")
+        fetch("http://localhost:4000/bookings")
             .then(response => response.json())
             .then(bookings => {
                 bookingsTableBody.innerHTML = ""; // Clear table before reloading
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         // Send POST Request to JSON Server
-        fetch("http://localhost:5000/bookings", {
+        fetch("http://localhost:4000/bookings", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(newBooking)
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Function to Delete a Booking
     function deleteBooking(id) {
-        fetch(`http://localhost:5000/bookings/${id}`, {
+        fetch(`http://localhost:4000/bookings/${id}`, {
             method: "DELETE"
         })
         .then(() => loadBookings()); // Refresh bookings
